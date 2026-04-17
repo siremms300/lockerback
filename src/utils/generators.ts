@@ -1,5 +1,5 @@
 // src/utils/generators.ts
-import QRCode from 'qrcode';
+import * as QRCode from 'qrcode';
 
 export const generateTrackingNumber = (): string => {
   const prefix = 'LKR';
