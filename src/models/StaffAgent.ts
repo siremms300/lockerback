@@ -1,4 +1,6 @@
 // models/StaffAgent.ts
+import mongoose, { Document } from 'mongoose';
+
 export interface IStaffAgent extends Document {
   name: string;
   phone: string;
